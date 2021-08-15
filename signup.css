@@ -1,0 +1,32 @@
+#bg{
+      background-color: cornflowerblue;
+      background-image: url(ab.png);
+}
+.heading{
+      text-align:center;
+      font-size: 50px;
+      color: chartreuse;
+}
+button{
+      background: white;
+      border-radius: 25px;
+      font-size: 20px;
+}
+button a{
+      color: chartreuse;
+      margin: 5px;
+      text-decoration: none;
+}
+#table{
+      text-align: center;
+      font-size: 40px;
+      color: chartreuse;
+      border: 5px solid green;
+      border-radius: 40px;
+      padding: 20px;
+}
+.fn{
+      background-color: rgb(245, 247, 245);
+      font-size: 30px;
+
+}

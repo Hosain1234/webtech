@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <title>Asphalt Car Rental</title>
+  <style media="screen">
+    #adc {
+      background-image: url(ab.png);
+      background-position-x: 100%;
+    }
+
+    .cars {
+      margin-top: 300px;
+      margin-left: 220px;
+      width: 18%;
+      display: inline-block;
+      border-radius: 10px;
+      background-color: #FFE4E1;
+    }
+
+    .image img {
+      width: 100%;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      border: none;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: white;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <button><a href="cards.html">BACK</a></button>
+    <button><a href="Car_renting.html">HOME</a></button>
+    <h1 style="text-align:center; font-family: 'Montserrat', sans-serif;"> Sedan Class</h1>
+  </header>
+  <!--divs-->
+
+  <div class="cars">
+    <form action="manage_cart.php" method="POST">
+      <div class="image">
+        <img src="axio.jpg" />
+
+      </div>
+      <div class="title">
+        <h1 style="text-align:center; font-family: 'Montserrat', sans-serif;">Toyota Axio</h1>
+
+      </div>
+      <div class="description" style="text-align:center; font-family: 'Montserrat', sans-serif;">
+        <p>
+        <h3> price: 2500 taka / per day</h3>
+        </p>
+        <button type="submit" name="add_to_cart">Book</button>
+        <input type="hidden" name="item_name" value="Toyota Axio">
+        <input type="hidden" name="price" value="2500">
+
+      </div>
+  </div>
+  </form>
+  <!--divs-->
+
+
+  <div class="cars">
+    <form action="manage_cart.php" method="POST">
+
+
+      <div class="image">
+        <img src="allion3.jpg" />
+
+      </div>
+      <div class="title">
+        <h1 style="text-align:center; font-family: 'Montserrat', sans-serif;">Toyota Allion</h1>
+
+      </div>
+      <div class="description" style="text-align:center; font-family: 'Montserrat', sans-serif;">
+        <p>
+        <h3> price: 3000 taka / per day</h3>
+        </p>
+        <button type="submit" name="add_to_cart">Book</button>
+        <input type="hidden" name="item_name" value="Toyota Allion">
+        <input type="hidden" name="price" value="3000">
+
+      </div>
+  </div>
+  </form>
+  <!--divs-->
+
+
+  <div class="cars">
+    <form action="manage_cart.php" method="POST">
+
+
+      <div class="image">
+        <img src="prius.jpg" />
+
+      </div>
+      <div class="title">
+        <h1 style="text-align:center; font-family: 'Montserrat', sans-serif;">Toyota Prius</h1>
+
+      </div>
+      <div class="description" style="text-align:center; font-family: 'Montserrat', sans-serif;">
+        <p>
+        <h3> price: 3500 taka / per day</h3>
+        </p>
+        <button type="submit" name="add_to_cart">Book</button>
+        <input type="hidden" name="item_name" value="Toyota Prius">
+        <input type="hidden" name="price" value="3500">
+
+      </div>
+  </div>
+  </form>
+
+
+
+
+</body>
+
+</html>

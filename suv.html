@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="C:\Users\Tahin\Music\WEB TECH\suv.css">
+  <title>Asphalt Car Rental</title>
+  <style media="screen">
+  .cars {
+    margin-top: 300px;
+    margin-left: 220px;
+    width: 18%;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #FFE4E1;
+  }
+  .image img {
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  button {
+    background-color: #4CAF50;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  </style>
+</head>
+
+<body>
+  <header>
+    <button><a href="cards.html">BACK</a></button>
+    <button><a href="Car_renting.html">HOME</a></button>
+    <h1 style="text-align:center; font-family: 'Montserrat', sans-serif;"> SUV Class</h1>
+  </header>
+  <!--divs-->
+        <div class="cars">
+          <form action="manage_cart.php" method="POST">
+          <div class="image">
+            <img src="suv.png" />
+
+          </div>
+          <div class="title">
+            <h1 style="text-align:center; font-family: 'Montserrat', sans-serif;">Toyota Fortuner</h1>
+
+          </div>
+          <div class="description" style="text-align:center; font-family: 'Montserrat', sans-serif;">
+            <p><h3>price: 5000 taka / per day</h3>
+              </p>
+              <button type="submit" name="add_to_cart">Book</button>
+              <input type="hidden" name="item_name" value="Toyota Fortuner">
+              <input type="hidden" name="price" value="5000">
+
+
+          </div>
+        </div>
+
+
+
+
+</body>
+
+</html>

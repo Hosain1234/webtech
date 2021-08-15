@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Sign-Up</title>
+      <link rel="stylesheet" href="signup.css">
+</head>
+<body background id="bg">
+      <p class="heading"> Welcome To Asphalt Car Rental</p>
+      <p class="heading">Fill The Form To Sign-Up</p>
+      <form action="insert.php" method="POST">
+      <table align="center" id="table">
+            <tr>
+                  <td>
+                       Name :
+                  </td>
+                  <td>
+                        <input type="text"placeholder=" Name" name="Username" class="fn" required>
+                  </td>
+            </tr>
+            <tr>
+                  <td>
+                        Password :
+                  </td>
+                  <td>
+                        <input type="password"placeholder="Set Password" name="password" class="fn" required>
+                  </td>
+            </tr>
+            <tr>
+                  <td>
+                        Gmail :
+                  </td>
+                  <td>
+                        <input type="gmail"placeholder="Enter Gmail" name="gmail" class="fn" required>
+                  </td>
+            </tr>
+            <tr>
+                  <td>
+                        Gender :
+                  </td>
+                  <td>
+                        <input type="radio" name="gender" value="m" required>Male
+                        <input type="radio" name="gender" value="f" required>Female
+                  </td>
+            </tr>
+            <tr>
+                  <td>
+                        Mobile Number :
+                  </td>
+                  <td>
+                        <select name="phonecode" id="" class="fn" required>
+                              <option selected hidden value="">Select Code</option>
+                              <option value="+880">+880</option>
+                              <option value="+93">+93</option>
+                              <option value="+46">+46</option>
+                              <option value="+97">+97</option>
+                              <option value="+65">+65</option>
+                              <option value="+69">+69</option>
+                              <option value="+420">+420</option>
+                        </select>
+                        <input type="Phone" name="phone" placeholder="Enter mobile number" class="fn" required>
+                  </td>
+            </tr>
+            <tr>
+                  <td>
+                        <input type="submit" value="Submit" class="fn">
+                  </td>
+            </tr>
+            
+
+      </table>
+
+<p id="footer" align="center">
+      <button>
+            <a href="Car_renting.html">Go To Home</a>
+      </button>
+      <button>
+            <a href="Log-in.html">Go To Log-In</a>
+      </button>
+</p>
+</form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+
+.companyName{
+      color: chartreuse;
+      font-size: 50px;
+}
+body{
+background-image: url(ab.png);
+background-size: cover;
+}
+.video_editor{
+position: absolute;
+right: 0;
+bottom: 0;
+min-width: 100%;
+min-height: 100%;
+width: auto;
+height: auto;
+z-index: -999;
+}
+button{
+background: rgb(251, 250, 252);
+border-radius: 25px;
+}
+loginButton{
+      text-align: center;
+}
+button a{
+font-size: 25px;
+color: rgb(62, 180, 15);
+margin: 20px;
+      text-decoration: none;
+}
+div{
+      font-family: Verdana;
+      font-weight: 800;
+      color: rgb(251, 252, 253);
+      text-align: center;
+      margin-top: 250px;
+}
